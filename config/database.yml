@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: franplace1_development
   pool: 5
-  username: franplace1
+  username: franplace
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: franplace1_production
   pool: 5
-  username: franplace
+  username: franplace1
   password:

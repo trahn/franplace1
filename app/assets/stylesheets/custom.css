@@ -1,0 +1,28 @@
+/*Navbar*/
+.social {
+	float: left;
+}
+
+body {
+	background-color: #eee;
+}
+
+.banner {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+
+/*Filters*/
+
+#filters-menu {
+	left: 0;
+	right: 0;
+}
+
+.filters-dropdown {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

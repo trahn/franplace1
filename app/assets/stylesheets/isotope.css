@@ -1,0 +1,20 @@
+.item { 
+/*	width: 200px; 
+	height: 400px;
+	background-color: blue;*/
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.item.w2 { 
+	width: 410px;
+	height: 200px;
+}
+
+.item img {
+	width: 200px;
+}
+
+.item.landscape img {
+	width: 410px;
+}

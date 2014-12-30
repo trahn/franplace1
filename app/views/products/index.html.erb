@@ -1,0 +1,59 @@
+<!-- <div class="row">
+	<%= image_tag "banner.jpg", alt: "FranPlace", class: "img-responsive banner" %>
+</div> -->
+
+<div class="row">
+	<div id="container" class="center-block">
+		<div class="item landscape"><%= image_tag "banner.jpg", alt: "FranPlace", class: "img" %></div>
+
+		<% @image_links.each do |link| %>
+		  	<div class="item">
+		  		<%= image_tag link %>
+		  	</div>
+		<% end %>
+
+<!-- 	  <% @images.each do |image| %>
+	  	<div class="item">
+	  		<%= image_tag "sample/#{image.split('/').last}" %>
+	  	</div>
+	  <% end %>  -->
+
+<!-- 	  <div class="item">...</div>
+	  <div class="item w2"><%= image_tag "banner.jpg", alt: "FranPlace", class: "img" %></div>
+	  <div class="item w2">...</div>
+	  <div class="item">...</div>  
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item"><%= image_tag "banner.jpg", alt: "FranPlace", class: "img" %></div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>  <div class="item w2">...</div>
+
+	  <div class="item">...</div>
+	  <div class="item">...</div>  <div class="item w2">...</div>
+
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>  <div class="item w2">...</div>
+
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>
+	  <div class="item">...</div>  <div class="item w2">...</div>
+
+
+	  <div class="item">...</div>
+	  <div class="item">...</div> -->
+	</div>
+</div>
