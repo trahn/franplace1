@@ -1,8 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-  	@images = Dir.glob("app/assets/images/sample/*")
-  	@image_links = ["http://static-1.mutex.me/products/sak-p-845524446721912.jpeg", "http://static-1.mutex.me/products/bg-p-prod100540004.jpeg", "http://static-1.mutex.me/products/bl-p-909458.png", "http://static-1.mutex.me/products/ns-p-3789481.jpeg", "http://static-1.mutex.me/products/for-COLY-WZ103.jpeg", "http://static-1.mutex.me/products/bn-p-00505034154151.png", "http://static-1.mutex.me/products/bg-p-prod99670011.jpeg", "http://static-1.mutex.me/products/bn-p-00505029944187.png", "http://static-1.mutex.me/products/bg-p-prod99490001.jpeg", "http://static-1.mutex.me/products/ns-p-3702763.jpeg", "http://static-1.mutex.me/products/sak-p-845524446440418.jpeg", "http://static-1.mutex.me/products/bl-p-1084592.png", "http://static-1.mutex.me/products/for-VENT-WZ131.jpeg", "http://static-1.mutex.me/products/bg-p-prod64000050.jpeg", "http://static-1.mutex.me/products/for-VENT-WZ99.jpeg", "http://static-1.mutex.me/products/ns-p-3765101.jpeg", "http://static-1.mutex.me/products/bn-p-00505030595972.png", "http://static-1.mutex.me/products/bn-p-00505034154175.png", "http://static-1.mutex.me/products/bn-p-00505034154250.png", "http://static-1.mutex.me/products/bn-p-00505034136508.png", "http://static-1.mutex.me/products/bn-p-00505021782152.png", "http://static-1.mutex.me/products/bn-p-00505033756806.png", "http://static-1.mutex.me/products/bn-p-00505034154960.png", "http://static-1.mutex.me/products/bn-p-00505034156216.png", "http://static-1.mutex.me/products/bn-p-00505034154397.png"]
+  	@products = Product.all
   end
 
 end

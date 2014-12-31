@@ -11,9 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20141231035129) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "products", force: true do |t|
+    t.string   "name"
+    t.string   "brand"
+    t.string   "category"
+    t.string   "shop"
+    t.decimal  "price"
+    t.integer  "discount"
+    t.string   "size"
+    t.string   "pic_url"
+    t.integer  "pic_width"
+    t.integer  "pic_height"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

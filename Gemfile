@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap-sass', '~> 3.2.0'
-#gem 'font-awesome-sass'
 gem 'autoprefixer-rails'
+gem 'fastimage', '~> 1.6.6'
 
 
 group :development do
